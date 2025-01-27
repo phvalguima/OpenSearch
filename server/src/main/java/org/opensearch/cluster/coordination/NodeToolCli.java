@@ -61,6 +61,7 @@ public class NodeToolCli extends MultiCommand {
         subcommands.put("override-version", new OverrideNodeVersionCommand());
         subcommands.put("remove-settings", new RemoveSettingsCommand());
         subcommands.put("remove-customs", new RemoveCustomsCommand());
+		subcommands.put("list-metadata", new ListMetadataCommand());
     }
 
     public static void main(String[] args) throws Exception {
